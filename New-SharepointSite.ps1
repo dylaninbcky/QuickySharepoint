@@ -40,7 +40,7 @@ Function New-SharepointSite {
                 Owner = $owner
                 StorageQuota = $StorageQuota
                 ResourceQuota = $ResourceQuota
-                Nowait = Nowait
+                Nowait = $true
                 Template = $template
             }
             Write-Host "Splatting Completed, $Title word nu gemaakt!" -ForegroundColor Green
